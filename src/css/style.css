@@ -1,9 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,500;1,400;1,600&display=swap');
 
-body{
-    font-family: 'Barlow Semi Condensed', sans-serif;
+:root{
+    font-size: 62.5%;
+    --name-color: #ffffff;
+    --comentario-secundario: #48556A;
 }
 
-.user-info img{
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: #F2F2F2;
+}
+
+main:first-child{
+    margin-top: 7.1rem;
+}
+
+.secao-comentario{
+    margin-bottom: 2.4rem;
+    border-radius: .8rem;
+    margin-inline: 2.4rem;
+}
+
+.secao-comentario:nth-child(1){
+    background: #733FC8;
+}
+
+.secao-comentario img{
+    width: 2.8rem;
+    height: 2.8rem;
+}
+
+.foto-perfil{
     float: left;
+    padding: 2.6rem 1.7rem 1.8rem 3.2rem;
+}
+
+.user-info h1{
+    padding-top: 2.5rem;
+    padding-bottom: .4rem;
+    font-weight: 500;
+    line-height: 1.3rem;
+    font-size: 1.3rem;
+}
+
+.nome-titulo{
+    color: var(--name-color);
+}
+
+.coment-paragraph{
+    color: var(--name-color);
+    opacity: 0.5;
+}
+
+.user-info p{
+    padding-bottom: 1.8rem;
+}
+
+.comentario p{
+    color: var(--name-color);
+    opacity: 0.7;
+    font-size: 1.3rem;
+    padding: 0 4.8rem 3.2rem 3.2rem;
+}
+
+.comentario h2{
+    font-size: 2rem;
+    padding: 1.8rem 3.2rem 4rem;
+}
+
+.titulo-comentario{
+    color: var(--name-color);
 }
