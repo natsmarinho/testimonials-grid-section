@@ -17,7 +17,7 @@ main:first-child{
 }
 
 .secao-comentario{
-    margin-bottom: 2.4rem;
+    margin-block: 2.4rem;
     border-radius: .8rem;
     margin-inline: 2.4rem;
     box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
@@ -29,6 +29,11 @@ main:first-child{
 
 .secao-comentario:nth-child(2){
     background: #48556A;
+}
+
+.secao-comentario:nth-child(4){
+    background: #19202D;
+    ;
 }
 
 
@@ -52,7 +57,8 @@ main:first-child{
 
 .aspas{
     position: absolute;
-    left: 75%;
+    left: 60%;
+    
 }
 
 .nome-titulo{
@@ -65,7 +71,7 @@ main:first-child{
 }
 
 .user-info p{
-    padding-bottom: 1.8rem;
+    padding-bottom: 1rem;
 }
 
 .comentario p{
@@ -81,6 +87,7 @@ main:first-child{
 
 #secundario{
     padding-bottom: 4rem;
+    position: relative;
 }
 
 .titulo-comentario{
