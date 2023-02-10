@@ -12,6 +12,8 @@ body{
     background-color: #F2F2F2;
 }
 
+
+
 main:first-child{
     margin-top: 7.1rem;
 }
@@ -104,5 +106,63 @@ main:first-child{
 
 .comentario-secundario{
     color: var(--name-color)
+}
+
+@media screen and (min-width:1024px){
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        position: absolute;
+        left: 8%;
+        top: 5%;
+    }
+
+    .item1{
+        grid-column: 1 / 2;
+        width: 540px;
+        height: 282px;
+    }
+    .item2{
+        grid-column: 2 / 3;
+        width: 255px;
+        height: 282px;
+        margin-left: 0;
+    }
+
+    .item3{
+        grid-column: 1 / 1;
+        width: 255px;
+        height: 266px;
+    }
+
+    .item4{
+        grid-column: 2 / 3;
+        width: 540px;
+        height: 266px;
+        margin-left: -280px;
+    }
+
+    .item5{
+        grid-column: 3 / 5;
+        width: 255px;
+        height: 578px;
+        margin-left: -40px;
+        margin-top: -300px;
+    }
+
+    .item5 p{
+        font-size: 1.4rem;
+    }
+
+    .aspas{
+        left: 30%;
+        top: 8.5%;
+        z-index: 2;
+    }
+
+    #secundario{
+        z-index: 3;
+    }
+    
 }
 
